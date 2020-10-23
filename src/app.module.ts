@@ -15,7 +15,7 @@ import { UserModule } from './user/user.module';
         host: process.env.DATABASE_URL,
         username: process.env.USER,
         password: process.env.PASSWORD,
-        port: 2560,
+        port: 25060,
         database: process.env.DATABASE,
         ssl: {
           rejectUnauthorized: false,
